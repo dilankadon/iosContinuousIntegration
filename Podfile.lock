@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.2.0)
+  - Cucumberish (1.0.6)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cucumberish
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  Cucumberish: 5c88c34d5a68221a8df1fa5a26ea35f1e7caa013
+
+PODFILE CHECKSUM: 62765d8a0b995b20ad31b5eee51a23a211906318
+
+COCOAPODS: 1.1.1
