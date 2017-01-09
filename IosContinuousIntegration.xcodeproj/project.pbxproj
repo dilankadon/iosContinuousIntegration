@@ -7,64 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3208BDB41E231627007852A2 /* IosContinuousIntegrationCucumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDB31E231627007852A2 /* IosContinuousIntegrationCucumberTests.swift */; };
-		3208BDB71E231627007852A2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDB61E231627007852A2 /* HomeScreen.swift */; };
-		3208BDB91E231627007852A2 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDB81E231627007852A2 /* BaseScreen.swift */; };
-		3208BDBC1E231627007852A2 /* HomeScreenSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDBB1E231627007852A2 /* HomeScreenSteps.swift */; };
-		3208BDBF1E231627007852A2 /* Hooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDBE1E231627007852A2 /* Hooks.swift */; };
-		3208BDC11E231627007852A2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDC01E231627007852A2 /* Extensions.swift */; };
-		3208BDC31E231627007852A2 /* CommonStepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDC21E231627007852A2 /* CommonStepDefinitions.swift */; };
-		3208BDC81E231627007852A2 /* IosContinuousIntegrationCucumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDC71E231627007852A2 /* IosContinuousIntegrationCucumberTests.m */; };
-		3208BDD01E2318A4007852A2 /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 3208BDCF1E2318A4007852A2 /* Features */; };
-		3208BE401E2318C3007852A2 /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDD61E2318C2007852A2 /* CCIFeaturesManager.m */; };
-		3208BE411E2318C3007852A2 /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDD81E2318C2007852A2 /* CCIStepsManager.m */; };
-		3208BE421E2318C3007852A2 /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDDB1E2318C2007852A2 /* CCIArgument.m */; };
-		3208BE431E2318C3007852A2 /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDDD1E2318C2007852A2 /* CCIAroundHock.m */; };
-		3208BE441E2318C3007852A2 /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDDF1E2318C2007852A2 /* CCIBackground.m */; };
-		3208BE451E2318C3007852A2 /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDE11E2318C2007852A2 /* CCIExample.m */; };
-		3208BE461E2318C3007852A2 /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDE31E2318C2007852A2 /* CCIFeature.m */; };
-		3208BE471E2318C3007852A2 /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDE51E2318C2007852A2 /* CCIHock.m */; };
-		3208BE481E2318C3007852A2 /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDE71E2318C2007852A2 /* CCILocation.m */; };
-		3208BE491E2318C3007852A2 /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDE91E2318C2007852A2 /* CCIScenarioDefinition.m */; };
-		3208BE4A1E2318C3007852A2 /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDEB1E2318C2007852A2 /* CCIStep.m */; };
-		3208BE4B1E2318C3007852A2 /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDED1E2318C2007852A2 /* CCIStepDefinition.m */; };
-		3208BE4C1E2318C3007852A2 /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDEF1E2318C2007852A2 /* Cucumberish.m */; };
-		3208BE4D1E2318C3007852A2 /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDF31E2318C2007852A2 /* GHAstBuilder.m */; };
-		3208BE4E1E2318C3007852A2 /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDF51E2318C2007852A2 /* GHAstNode.m */; };
-		3208BE4F1E2318C3007852A2 /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDF71E2318C2007852A2 /* GHBackground.m */; };
-		3208BE501E2318C3007852A2 /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDF91E2318C2007852A2 /* GHComment.m */; };
-		3208BE511E2318C3007852A2 /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDFB1E2318C2007852A2 /* GHDataTable.m */; };
-		3208BE521E2318C3007852A2 /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BDFD1E2318C2007852A2 /* GHDocString.m */; };
-		3208BE531E2318C3007852A2 /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 3208BDFE1E2318C2007852A2 /* gherkin-languages.json */; };
-		3208BE541E2318C3007852A2 /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE001E2318C2007852A2 /* GHExamples.m */; };
-		3208BE551E2318C3007852A2 /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE021E2318C2007852A2 /* GHFeature.m */; };
-		3208BE561E2318C3007852A2 /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE041E2318C2007852A2 /* GHGherkinDialect.m */; };
-		3208BE571E2318C3007852A2 /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE061E2318C2007852A2 /* GHGherkinDialectProvider.m */; };
-		3208BE581E2318C3007852A2 /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE091E2318C2007852A2 /* GHGherkinLanguageConstants.m */; };
-		3208BE591E2318C3007852A2 /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE0B1E2318C2007852A2 /* GHGherkinLanguageSetting.m */; };
-		3208BE5A1E2318C3007852A2 /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE0D1E2318C2007852A2 /* GHGherkinLine.m */; };
-		3208BE5B1E2318C3007852A2 /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE101E2318C2007852A2 /* GHGherkinLineSpan.m */; };
-		3208BE5C1E2318C3007852A2 /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE171E2318C2007852A2 /* GHLocation.m */; };
-		3208BE5D1E2318C3007852A2 /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE191E2318C2007852A2 /* GHNode.m */; };
-		3208BE5E1E2318C3007852A2 /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE1B1E2318C2007852A2 /* GHParser+Extensions.m */; };
-		3208BE5F1E2318C3007852A2 /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE1D1E2318C2007852A2 /* GHParser.m */; };
-		3208BE601E2318C3007852A2 /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE1F1E2318C2007852A2 /* GHParserException.m */; };
-		3208BE611E2318C3007852A2 /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE211E2318C3007852A2 /* GHScenario.m */; };
-		3208BE621E2318C3007852A2 /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE231E2318C3007852A2 /* GHScenarioDefinition.m */; };
-		3208BE631E2318C3007852A2 /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE261E2318C3007852A2 /* GHScenarioOutline.m */; };
-		3208BE641E2318C3007852A2 /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE281E2318C3007852A2 /* GHStep.m */; };
-		3208BE651E2318C3007852A2 /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE2A1E2318C3007852A2 /* GHStepArgument.m */; };
-		3208BE661E2318C3007852A2 /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE2C1E2318C3007852A2 /* GHTableCell.m */; };
-		3208BE671E2318C3007852A2 /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE2E1E2318C3007852A2 /* GHTableRow.m */; };
-		3208BE681E2318C3007852A2 /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE301E2318C3007852A2 /* GHTag.m */; };
-		3208BE691E2318C3007852A2 /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE321E2318C3007852A2 /* GHToken.m */; };
-		3208BE6A1E2318C3007852A2 /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE341E2318C3007852A2 /* GHTokenMatcher.m */; };
-		3208BE6B1E2318C3007852A2 /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE361E2318C3007852A2 /* GHTokenScanner.m */; };
-		3208BE6C1E2318C3007852A2 /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE381E2318C3007852A2 /* NSString+Trim.m */; };
-		3208BE6D1E2318C3007852A2 /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE3B1E2318C3007852A2 /* NSArray+Hashes.m */; };
-		3208BE6E1E2318C3007852A2 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE3D1E2318C3007852A2 /* NSObject+Dictionary.m */; };
-		3208BE6F1E2318C3007852A2 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE3F1E2318C3007852A2 /* NSString+Formatter.m */; };
-		3208BE711E23385E007852A2 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3208BE701E23385E007852A2 /* SnapshotHelper.swift */; };
+		323AC6B11E244E540031A2AD /* IosContinuousIntegrationCucumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6B01E244E540031A2AD /* IosContinuousIntegrationCucumberTests.swift */; };
+		323AC6B41E244E550031A2AD /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6B31E244E550031A2AD /* HomeScreen.swift */; };
+		323AC6B61E244E550031A2AD /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6B51E244E550031A2AD /* BaseScreen.swift */; };
+		323AC6B91E244E550031A2AD /* HomeScreenSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6B81E244E550031A2AD /* HomeScreenSteps.swift */; };
+		323AC6BC1E244E550031A2AD /* Hooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6BB1E244E550031A2AD /* Hooks.swift */; };
+		323AC6BE1E244E550031A2AD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6BD1E244E550031A2AD /* Extensions.swift */; };
+		323AC6C01E244E550031A2AD /* CommonStepDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6BF1E244E550031A2AD /* CommonStepDefinitions.swift */; };
+		323AC6C51E244E550031A2AD /* IosContinuousIntegrationCucumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6C41E244E550031A2AD /* IosContinuousIntegrationCucumberTests.m */; };
+		323AC73B1E244EAA0031A2AD /* CCIFeaturesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6D11E244EAA0031A2AD /* CCIFeaturesManager.m */; };
+		323AC73C1E244EAA0031A2AD /* CCIStepsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6D31E244EAA0031A2AD /* CCIStepsManager.m */; };
+		323AC73D1E244EAA0031A2AD /* CCIArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6D61E244EAA0031A2AD /* CCIArgument.m */; };
+		323AC73E1E244EAA0031A2AD /* CCIAroundHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6D81E244EAA0031A2AD /* CCIAroundHock.m */; };
+		323AC73F1E244EAA0031A2AD /* CCIBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6DA1E244EAA0031A2AD /* CCIBackground.m */; };
+		323AC7401E244EAA0031A2AD /* CCIExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6DC1E244EAA0031A2AD /* CCIExample.m */; };
+		323AC7411E244EAA0031A2AD /* CCIFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6DE1E244EAA0031A2AD /* CCIFeature.m */; };
+		323AC7421E244EAA0031A2AD /* CCIHock.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6E01E244EAA0031A2AD /* CCIHock.m */; };
+		323AC7431E244EAA0031A2AD /* CCILocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6E21E244EAA0031A2AD /* CCILocation.m */; };
+		323AC7441E244EAA0031A2AD /* CCIScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6E41E244EAA0031A2AD /* CCIScenarioDefinition.m */; };
+		323AC7451E244EAA0031A2AD /* CCIStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6E61E244EAA0031A2AD /* CCIStep.m */; };
+		323AC7461E244EAA0031A2AD /* CCIStepDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6E81E244EAA0031A2AD /* CCIStepDefinition.m */; };
+		323AC7471E244EAA0031A2AD /* Cucumberish.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6EA1E244EAA0031A2AD /* Cucumberish.m */; };
+		323AC7481E244EAA0031A2AD /* GHAstBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6EE1E244EAA0031A2AD /* GHAstBuilder.m */; };
+		323AC7491E244EAA0031A2AD /* GHAstNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6F01E244EAA0031A2AD /* GHAstNode.m */; };
+		323AC74A1E244EAA0031A2AD /* GHBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6F21E244EAA0031A2AD /* GHBackground.m */; };
+		323AC74B1E244EAA0031A2AD /* GHComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6F41E244EAA0031A2AD /* GHComment.m */; };
+		323AC74C1E244EAA0031A2AD /* GHDataTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6F61E244EAA0031A2AD /* GHDataTable.m */; };
+		323AC74D1E244EAA0031A2AD /* GHDocString.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6F81E244EAA0031A2AD /* GHDocString.m */; };
+		323AC74E1E244EAA0031A2AD /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 323AC6F91E244EAA0031A2AD /* gherkin-languages.json */; };
+		323AC74F1E244EAA0031A2AD /* GHExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6FB1E244EAA0031A2AD /* GHExamples.m */; };
+		323AC7501E244EAA0031A2AD /* GHFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6FD1E244EAA0031A2AD /* GHFeature.m */; };
+		323AC7511E244EAA0031A2AD /* GHGherkinDialect.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC6FF1E244EAA0031A2AD /* GHGherkinDialect.m */; };
+		323AC7521E244EAA0031A2AD /* GHGherkinDialectProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7011E244EAA0031A2AD /* GHGherkinDialectProvider.m */; };
+		323AC7531E244EAA0031A2AD /* GHGherkinLanguageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7041E244EAA0031A2AD /* GHGherkinLanguageConstants.m */; };
+		323AC7541E244EAA0031A2AD /* GHGherkinLanguageSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7061E244EAA0031A2AD /* GHGherkinLanguageSetting.m */; };
+		323AC7551E244EAA0031A2AD /* GHGherkinLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7081E244EAA0031A2AD /* GHGherkinLine.m */; };
+		323AC7561E244EAA0031A2AD /* GHGherkinLineSpan.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC70B1E244EAA0031A2AD /* GHGherkinLineSpan.m */; };
+		323AC7571E244EAA0031A2AD /* GHLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7121E244EAA0031A2AD /* GHLocation.m */; };
+		323AC7581E244EAA0031A2AD /* GHNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7141E244EAA0031A2AD /* GHNode.m */; };
+		323AC7591E244EAA0031A2AD /* GHParser+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7161E244EAA0031A2AD /* GHParser+Extensions.m */; };
+		323AC75A1E244EAA0031A2AD /* GHParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7181E244EAA0031A2AD /* GHParser.m */; };
+		323AC75B1E244EAA0031A2AD /* GHParserException.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC71A1E244EAA0031A2AD /* GHParserException.m */; };
+		323AC75C1E244EAA0031A2AD /* GHScenario.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC71C1E244EAA0031A2AD /* GHScenario.m */; };
+		323AC75D1E244EAA0031A2AD /* GHScenarioDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC71E1E244EAA0031A2AD /* GHScenarioDefinition.m */; };
+		323AC75E1E244EAA0031A2AD /* GHScenarioOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7211E244EAA0031A2AD /* GHScenarioOutline.m */; };
+		323AC75F1E244EAA0031A2AD /* GHStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7231E244EAA0031A2AD /* GHStep.m */; };
+		323AC7601E244EAA0031A2AD /* GHStepArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7251E244EAA0031A2AD /* GHStepArgument.m */; };
+		323AC7611E244EAA0031A2AD /* GHTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7271E244EAA0031A2AD /* GHTableCell.m */; };
+		323AC7621E244EAA0031A2AD /* GHTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7291E244EAA0031A2AD /* GHTableRow.m */; };
+		323AC7631E244EAA0031A2AD /* GHTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC72B1E244EAA0031A2AD /* GHTag.m */; };
+		323AC7641E244EAA0031A2AD /* GHToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC72D1E244EAA0031A2AD /* GHToken.m */; };
+		323AC7651E244EAA0031A2AD /* GHTokenMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC72F1E244EAA0031A2AD /* GHTokenMatcher.m */; };
+		323AC7661E244EAA0031A2AD /* GHTokenScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7311E244EAA0031A2AD /* GHTokenScanner.m */; };
+		323AC7671E244EAA0031A2AD /* NSString+Trim.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7331E244EAA0031A2AD /* NSString+Trim.m */; };
+		323AC7681E244EAA0031A2AD /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7361E244EAA0031A2AD /* NSArray+Hashes.m */; };
+		323AC7691E244EAA0031A2AD /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC7381E244EAA0031A2AD /* NSObject+Dictionary.m */; };
+		323AC76A1E244EAA0031A2AD /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 323AC73A1E244EAA0031A2AD /* NSString+Formatter.m */; };
+		323AC76C1E244EB30031A2AD /* Features in Resources */ = {isa = PBXBuildFile; fileRef = 323AC76B1E244EB30031A2AD /* Features */; };
+		A045EA6FABFE92B1FAFA694E /* Pods_IosContinuousIntegrationCucumberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD116D27BE78FC50A7910C80 /* Pods_IosContinuousIntegrationCucumberTests.framework */; };
 		A541A3201BD4CFB70030333E /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = A541A31F1BD4CFB70030333E /* fastlane */; };
 		A5CDD0CF1BCE267B00E6F2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CDD0CE1BCE267B00E6F2BD /* AppDelegate.swift */; };
 		A5CDD0D11BCE267B00E6F2BD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CDD0D01BCE267B00E6F2BD /* MasterViewController.swift */; };
@@ -74,12 +74,11 @@
 		A5CDD0DB1BCE267B00E6F2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CDD0D91BCE267B00E6F2BD /* LaunchScreen.storyboard */; };
 		A5CDD0E61BCE267B00E6F2BD /* IosContinuousIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CDD0E51BCE267B00E6F2BD /* IosContinuousIntegrationTests.swift */; };
 		A5CDD0F11BCE267B00E6F2BD /* IosContinuousIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CDD0F01BCE267B00E6F2BD /* IosContinuousIntegrationUITests.swift */; };
-		AE10260E43952CE09291B9C9 /* Pods_IosContinuousIntegrationCucumberTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD116D27BE78FC50A7910C80 /* Pods_IosContinuousIntegrationCucumberTests.framework */; };
 		CED9E3ABD7FFC907E76C1C6B /* Pods_IosContinuousIntegration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2EC92EFFFBB57F572E7976 /* Pods_IosContinuousIntegration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3208BDCA1E231627007852A2 /* PBXContainerItemProxy */ = {
+		323AC6C71E244E550031A2AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A5CDD0C31BCE267B00E6F2BD /* Project object */;
 			proxyType = 1;
@@ -104,124 +103,123 @@
 
 /* Begin PBXFileReference section */
 		0EC919374653CC2BD0A770D0 /* Pods-IosContinuousIntegrationCucumberTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosContinuousIntegrationCucumberTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IosContinuousIntegrationCucumberTests/Pods-IosContinuousIntegrationCucumberTests.release.xcconfig"; sourceTree = "<group>"; };
-		3208BDB11E231627007852A2 /* IosContinuousIntegrationCucumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosContinuousIntegrationCucumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3208BDB31E231627007852A2 /* IosContinuousIntegrationCucumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosContinuousIntegrationCucumberTests.swift; sourceTree = "<group>"; };
-		3208BDB61E231627007852A2 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		3208BDB81E231627007852A2 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
-		3208BDBB1E231627007852A2 /* HomeScreenSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenSteps.swift; sourceTree = "<group>"; };
-		3208BDBE1E231627007852A2 /* Hooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hooks.swift; sourceTree = "<group>"; };
-		3208BDC01E231627007852A2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		3208BDC21E231627007852A2 /* CommonStepDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStepDefinitions.swift; sourceTree = "<group>"; };
-		3208BDC51E231627007852A2 /* IosContinuousIntegrationCucumberTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosContinuousIntegrationCucumberTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		3208BDC61E231627007852A2 /* IosContinuousIntegrationCucumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosContinuousIntegrationCucumberTests.h; sourceTree = "<group>"; };
-		3208BDC71E231627007852A2 /* IosContinuousIntegrationCucumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosContinuousIntegrationCucumberTests.m; sourceTree = "<group>"; };
-		3208BDC91E231627007852A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3208BDCF1E2318A4007852A2 /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
-		3208BDD31E2318C2007852A2 /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBlockDefinitions.h; sourceTree = "<group>"; };
-		3208BDD51E2318C2007852A2 /* CCIFeaturesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeaturesManager.h; sourceTree = "<group>"; };
-		3208BDD61E2318C2007852A2 /* CCIFeaturesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIFeaturesManager.m; sourceTree = "<group>"; };
-		3208BDD71E2318C2007852A2 /* CCIStepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepsManager.h; sourceTree = "<group>"; };
-		3208BDD81E2318C2007852A2 /* CCIStepsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStepsManager.m; sourceTree = "<group>"; };
-		3208BDDA1E2318C2007852A2 /* CCIArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIArgument.h; sourceTree = "<group>"; };
-		3208BDDB1E2318C2007852A2 /* CCIArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIArgument.m; sourceTree = "<group>"; };
-		3208BDDC1E2318C2007852A2 /* CCIAroundHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIAroundHock.h; sourceTree = "<group>"; };
-		3208BDDD1E2318C2007852A2 /* CCIAroundHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIAroundHock.m; sourceTree = "<group>"; };
-		3208BDDE1E2318C2007852A2 /* CCIBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBackground.h; sourceTree = "<group>"; };
-		3208BDDF1E2318C2007852A2 /* CCIBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIBackground.m; sourceTree = "<group>"; };
-		3208BDE01E2318C2007852A2 /* CCIExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIExample.h; sourceTree = "<group>"; };
-		3208BDE11E2318C2007852A2 /* CCIExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIExample.m; sourceTree = "<group>"; };
-		3208BDE21E2318C2007852A2 /* CCIFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeature.h; sourceTree = "<group>"; };
-		3208BDE31E2318C2007852A2 /* CCIFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIFeature.m; sourceTree = "<group>"; };
-		3208BDE41E2318C2007852A2 /* CCIHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIHock.h; sourceTree = "<group>"; };
-		3208BDE51E2318C2007852A2 /* CCIHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIHock.m; sourceTree = "<group>"; };
-		3208BDE61E2318C2007852A2 /* CCILocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCILocation.h; sourceTree = "<group>"; };
-		3208BDE71E2318C2007852A2 /* CCILocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCILocation.m; sourceTree = "<group>"; };
-		3208BDE81E2318C2007852A2 /* CCIScenarioDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIScenarioDefinition.h; sourceTree = "<group>"; };
-		3208BDE91E2318C2007852A2 /* CCIScenarioDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIScenarioDefinition.m; sourceTree = "<group>"; };
-		3208BDEA1E2318C2007852A2 /* CCIStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStep.h; sourceTree = "<group>"; };
-		3208BDEB1E2318C2007852A2 /* CCIStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStep.m; sourceTree = "<group>"; };
-		3208BDEC1E2318C2007852A2 /* CCIStepDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepDefinition.h; sourceTree = "<group>"; };
-		3208BDED1E2318C2007852A2 /* CCIStepDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStepDefinition.m; sourceTree = "<group>"; };
-		3208BDEE1E2318C2007852A2 /* Cucumberish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cucumberish.h; sourceTree = "<group>"; };
-		3208BDEF1E2318C2007852A2 /* Cucumberish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cucumberish.m; sourceTree = "<group>"; };
-		3208BDF21E2318C2007852A2 /* GHAstBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAstBuilder.h; sourceTree = "<group>"; };
-		3208BDF31E2318C2007852A2 /* GHAstBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAstBuilder.m; sourceTree = "<group>"; };
-		3208BDF41E2318C2007852A2 /* GHAstNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAstNode.h; sourceTree = "<group>"; };
-		3208BDF51E2318C2007852A2 /* GHAstNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAstNode.m; sourceTree = "<group>"; };
-		3208BDF61E2318C2007852A2 /* GHBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBackground.h; sourceTree = "<group>"; };
-		3208BDF71E2318C2007852A2 /* GHBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBackground.m; sourceTree = "<group>"; };
-		3208BDF81E2318C2007852A2 /* GHComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHComment.h; sourceTree = "<group>"; };
-		3208BDF91E2318C2007852A2 /* GHComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHComment.m; sourceTree = "<group>"; };
-		3208BDFA1E2318C2007852A2 /* GHDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDataTable.h; sourceTree = "<group>"; };
-		3208BDFB1E2318C2007852A2 /* GHDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDataTable.m; sourceTree = "<group>"; };
-		3208BDFC1E2318C2007852A2 /* GHDocString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDocString.h; sourceTree = "<group>"; };
-		3208BDFD1E2318C2007852A2 /* GHDocString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDocString.m; sourceTree = "<group>"; };
-		3208BDFE1E2318C2007852A2 /* gherkin-languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gherkin-languages.json"; sourceTree = "<group>"; };
-		3208BDFF1E2318C2007852A2 /* GHExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHExamples.h; sourceTree = "<group>"; };
-		3208BE001E2318C2007852A2 /* GHExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHExamples.m; sourceTree = "<group>"; };
-		3208BE011E2318C2007852A2 /* GHFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHFeature.h; sourceTree = "<group>"; };
-		3208BE021E2318C2007852A2 /* GHFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHFeature.m; sourceTree = "<group>"; };
-		3208BE031E2318C2007852A2 /* GHGherkinDialect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinDialect.h; sourceTree = "<group>"; };
-		3208BE041E2318C2007852A2 /* GHGherkinDialect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinDialect.m; sourceTree = "<group>"; };
-		3208BE051E2318C2007852A2 /* GHGherkinDialectProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinDialectProvider.h; sourceTree = "<group>"; };
-		3208BE061E2318C2007852A2 /* GHGherkinDialectProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinDialectProvider.m; sourceTree = "<group>"; };
-		3208BE071E2318C2007852A2 /* GHGherkinDialectProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinDialectProviderProtocol.h; sourceTree = "<group>"; };
-		3208BE081E2318C2007852A2 /* GHGherkinLanguageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLanguageConstants.h; sourceTree = "<group>"; };
-		3208BE091E2318C2007852A2 /* GHGherkinLanguageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLanguageConstants.m; sourceTree = "<group>"; };
-		3208BE0A1E2318C2007852A2 /* GHGherkinLanguageSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLanguageSetting.h; sourceTree = "<group>"; };
-		3208BE0B1E2318C2007852A2 /* GHGherkinLanguageSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLanguageSetting.m; sourceTree = "<group>"; };
-		3208BE0C1E2318C2007852A2 /* GHGherkinLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLine.h; sourceTree = "<group>"; };
-		3208BE0D1E2318C2007852A2 /* GHGherkinLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLine.m; sourceTree = "<group>"; };
-		3208BE0E1E2318C2007852A2 /* GHGherkinLineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLineProtocol.h; sourceTree = "<group>"; };
-		3208BE0F1E2318C2007852A2 /* GHGherkinLineSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLineSpan.h; sourceTree = "<group>"; };
-		3208BE101E2318C2007852A2 /* GHGherkinLineSpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLineSpan.m; sourceTree = "<group>"; };
-		3208BE111E2318C2007852A2 /* GHHasDescriptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasDescriptionProtocol.h; sourceTree = "<group>"; };
-		3208BE121E2318C2007852A2 /* GHHasLocationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasLocationProtocol.h; sourceTree = "<group>"; };
-		3208BE131E2318C2007852A2 /* GHHasRowsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasRowsProtocol.h; sourceTree = "<group>"; };
-		3208BE141E2318C2007852A2 /* GHHasStepsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasStepsProtocol.h; sourceTree = "<group>"; };
-		3208BE151E2318C2007852A2 /* GHHasTagsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasTagsProtocol.h; sourceTree = "<group>"; };
-		3208BE161E2318C2007852A2 /* GHLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLocation.h; sourceTree = "<group>"; };
-		3208BE171E2318C2007852A2 /* GHLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLocation.m; sourceTree = "<group>"; };
-		3208BE181E2318C2007852A2 /* GHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHNode.h; sourceTree = "<group>"; };
-		3208BE191E2318C2007852A2 /* GHNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHNode.m; sourceTree = "<group>"; };
-		3208BE1A1E2318C2007852A2 /* GHParser+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHParser+Extensions.h"; sourceTree = "<group>"; };
-		3208BE1B1E2318C2007852A2 /* GHParser+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GHParser+Extensions.m"; sourceTree = "<group>"; };
-		3208BE1C1E2318C2007852A2 /* GHParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHParser.h; sourceTree = "<group>"; };
-		3208BE1D1E2318C2007852A2 /* GHParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHParser.m; sourceTree = "<group>"; };
-		3208BE1E1E2318C2007852A2 /* GHParserException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHParserException.h; sourceTree = "<group>"; };
-		3208BE1F1E2318C2007852A2 /* GHParserException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHParserException.m; sourceTree = "<group>"; };
-		3208BE201E2318C2007852A2 /* GHScenario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenario.h; sourceTree = "<group>"; };
-		3208BE211E2318C3007852A2 /* GHScenario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHScenario.m; sourceTree = "<group>"; };
-		3208BE221E2318C3007852A2 /* GHScenarioDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenarioDefinition.h; sourceTree = "<group>"; };
-		3208BE231E2318C3007852A2 /* GHScenarioDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHScenarioDefinition.m; sourceTree = "<group>"; };
-		3208BE241E2318C3007852A2 /* GHScenarioDefinition_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenarioDefinition_Private.h; sourceTree = "<group>"; };
-		3208BE251E2318C3007852A2 /* GHScenarioOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenarioOutline.h; sourceTree = "<group>"; };
-		3208BE261E2318C3007852A2 /* GHScenarioOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHScenarioOutline.m; sourceTree = "<group>"; };
-		3208BE271E2318C3007852A2 /* GHStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHStep.h; sourceTree = "<group>"; };
-		3208BE281E2318C3007852A2 /* GHStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHStep.m; sourceTree = "<group>"; };
-		3208BE291E2318C3007852A2 /* GHStepArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHStepArgument.h; sourceTree = "<group>"; };
-		3208BE2A1E2318C3007852A2 /* GHStepArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHStepArgument.m; sourceTree = "<group>"; };
-		3208BE2B1E2318C3007852A2 /* GHTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTableCell.h; sourceTree = "<group>"; };
-		3208BE2C1E2318C3007852A2 /* GHTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTableCell.m; sourceTree = "<group>"; };
-		3208BE2D1E2318C3007852A2 /* GHTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTableRow.h; sourceTree = "<group>"; };
-		3208BE2E1E2318C3007852A2 /* GHTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTableRow.m; sourceTree = "<group>"; };
-		3208BE2F1E2318C3007852A2 /* GHTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTag.h; sourceTree = "<group>"; };
-		3208BE301E2318C3007852A2 /* GHTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTag.m; sourceTree = "<group>"; };
-		3208BE311E2318C3007852A2 /* GHToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHToken.h; sourceTree = "<group>"; };
-		3208BE321E2318C3007852A2 /* GHToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHToken.m; sourceTree = "<group>"; };
-		3208BE331E2318C3007852A2 /* GHTokenMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTokenMatcher.h; sourceTree = "<group>"; };
-		3208BE341E2318C3007852A2 /* GHTokenMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTokenMatcher.m; sourceTree = "<group>"; };
-		3208BE351E2318C3007852A2 /* GHTokenScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTokenScanner.h; sourceTree = "<group>"; };
-		3208BE361E2318C3007852A2 /* GHTokenScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTokenScanner.m; sourceTree = "<group>"; };
-		3208BE371E2318C3007852A2 /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
-		3208BE381E2318C3007852A2 /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
-		3208BE3A1E2318C3007852A2 /* NSArray+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Hashes.h"; sourceTree = "<group>"; };
-		3208BE3B1E2318C3007852A2 /* NSArray+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Hashes.m"; sourceTree = "<group>"; };
-		3208BE3C1E2318C3007852A2 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
-		3208BE3D1E2318C3007852A2 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
-		3208BE3E1E2318C3007852A2 /* NSString+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatter.h"; sourceTree = "<group>"; };
-		3208BE3F1E2318C3007852A2 /* NSString+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatter.m"; sourceTree = "<group>"; };
-		3208BE701E23385E007852A2 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		323AC6AE1E244E540031A2AD /* IosContinuousIntegrationCucumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosContinuousIntegrationCucumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323AC6B01E244E540031A2AD /* IosContinuousIntegrationCucumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosContinuousIntegrationCucumberTests.swift; sourceTree = "<group>"; };
+		323AC6B31E244E550031A2AD /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		323AC6B51E244E550031A2AD /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		323AC6B81E244E550031A2AD /* HomeScreenSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenSteps.swift; sourceTree = "<group>"; };
+		323AC6BB1E244E550031A2AD /* Hooks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hooks.swift; sourceTree = "<group>"; };
+		323AC6BD1E244E550031A2AD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		323AC6BF1E244E550031A2AD /* CommonStepDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonStepDefinitions.swift; sourceTree = "<group>"; };
+		323AC6C21E244E550031A2AD /* IosContinuousIntegrationCucumberTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IosContinuousIntegrationCucumberTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		323AC6C31E244E550031A2AD /* IosContinuousIntegrationCucumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IosContinuousIntegrationCucumberTests.h; sourceTree = "<group>"; };
+		323AC6C41E244E550031A2AD /* IosContinuousIntegrationCucumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosContinuousIntegrationCucumberTests.m; sourceTree = "<group>"; };
+		323AC6C61E244E550031A2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323AC6CE1E244EAA0031A2AD /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBlockDefinitions.h; sourceTree = "<group>"; };
+		323AC6D01E244EAA0031A2AD /* CCIFeaturesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeaturesManager.h; sourceTree = "<group>"; };
+		323AC6D11E244EAA0031A2AD /* CCIFeaturesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIFeaturesManager.m; sourceTree = "<group>"; };
+		323AC6D21E244EAA0031A2AD /* CCIStepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepsManager.h; sourceTree = "<group>"; };
+		323AC6D31E244EAA0031A2AD /* CCIStepsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStepsManager.m; sourceTree = "<group>"; };
+		323AC6D51E244EAA0031A2AD /* CCIArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIArgument.h; sourceTree = "<group>"; };
+		323AC6D61E244EAA0031A2AD /* CCIArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIArgument.m; sourceTree = "<group>"; };
+		323AC6D71E244EAA0031A2AD /* CCIAroundHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIAroundHock.h; sourceTree = "<group>"; };
+		323AC6D81E244EAA0031A2AD /* CCIAroundHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIAroundHock.m; sourceTree = "<group>"; };
+		323AC6D91E244EAA0031A2AD /* CCIBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBackground.h; sourceTree = "<group>"; };
+		323AC6DA1E244EAA0031A2AD /* CCIBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIBackground.m; sourceTree = "<group>"; };
+		323AC6DB1E244EAA0031A2AD /* CCIExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIExample.h; sourceTree = "<group>"; };
+		323AC6DC1E244EAA0031A2AD /* CCIExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIExample.m; sourceTree = "<group>"; };
+		323AC6DD1E244EAA0031A2AD /* CCIFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeature.h; sourceTree = "<group>"; };
+		323AC6DE1E244EAA0031A2AD /* CCIFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIFeature.m; sourceTree = "<group>"; };
+		323AC6DF1E244EAA0031A2AD /* CCIHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIHock.h; sourceTree = "<group>"; };
+		323AC6E01E244EAA0031A2AD /* CCIHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIHock.m; sourceTree = "<group>"; };
+		323AC6E11E244EAA0031A2AD /* CCILocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCILocation.h; sourceTree = "<group>"; };
+		323AC6E21E244EAA0031A2AD /* CCILocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCILocation.m; sourceTree = "<group>"; };
+		323AC6E31E244EAA0031A2AD /* CCIScenarioDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIScenarioDefinition.h; sourceTree = "<group>"; };
+		323AC6E41E244EAA0031A2AD /* CCIScenarioDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIScenarioDefinition.m; sourceTree = "<group>"; };
+		323AC6E51E244EAA0031A2AD /* CCIStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStep.h; sourceTree = "<group>"; };
+		323AC6E61E244EAA0031A2AD /* CCIStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStep.m; sourceTree = "<group>"; };
+		323AC6E71E244EAA0031A2AD /* CCIStepDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepDefinition.h; sourceTree = "<group>"; };
+		323AC6E81E244EAA0031A2AD /* CCIStepDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStepDefinition.m; sourceTree = "<group>"; };
+		323AC6E91E244EAA0031A2AD /* Cucumberish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cucumberish.h; sourceTree = "<group>"; };
+		323AC6EA1E244EAA0031A2AD /* Cucumberish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cucumberish.m; sourceTree = "<group>"; };
+		323AC6ED1E244EAA0031A2AD /* GHAstBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAstBuilder.h; sourceTree = "<group>"; };
+		323AC6EE1E244EAA0031A2AD /* GHAstBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAstBuilder.m; sourceTree = "<group>"; };
+		323AC6EF1E244EAA0031A2AD /* GHAstNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAstNode.h; sourceTree = "<group>"; };
+		323AC6F01E244EAA0031A2AD /* GHAstNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAstNode.m; sourceTree = "<group>"; };
+		323AC6F11E244EAA0031A2AD /* GHBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHBackground.h; sourceTree = "<group>"; };
+		323AC6F21E244EAA0031A2AD /* GHBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHBackground.m; sourceTree = "<group>"; };
+		323AC6F31E244EAA0031A2AD /* GHComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHComment.h; sourceTree = "<group>"; };
+		323AC6F41E244EAA0031A2AD /* GHComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHComment.m; sourceTree = "<group>"; };
+		323AC6F51E244EAA0031A2AD /* GHDataTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDataTable.h; sourceTree = "<group>"; };
+		323AC6F61E244EAA0031A2AD /* GHDataTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDataTable.m; sourceTree = "<group>"; };
+		323AC6F71E244EAA0031A2AD /* GHDocString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHDocString.h; sourceTree = "<group>"; };
+		323AC6F81E244EAA0031A2AD /* GHDocString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHDocString.m; sourceTree = "<group>"; };
+		323AC6F91E244EAA0031A2AD /* gherkin-languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gherkin-languages.json"; sourceTree = "<group>"; };
+		323AC6FA1E244EAA0031A2AD /* GHExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHExamples.h; sourceTree = "<group>"; };
+		323AC6FB1E244EAA0031A2AD /* GHExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHExamples.m; sourceTree = "<group>"; };
+		323AC6FC1E244EAA0031A2AD /* GHFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHFeature.h; sourceTree = "<group>"; };
+		323AC6FD1E244EAA0031A2AD /* GHFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHFeature.m; sourceTree = "<group>"; };
+		323AC6FE1E244EAA0031A2AD /* GHGherkinDialect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinDialect.h; sourceTree = "<group>"; };
+		323AC6FF1E244EAA0031A2AD /* GHGherkinDialect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinDialect.m; sourceTree = "<group>"; };
+		323AC7001E244EAA0031A2AD /* GHGherkinDialectProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinDialectProvider.h; sourceTree = "<group>"; };
+		323AC7011E244EAA0031A2AD /* GHGherkinDialectProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinDialectProvider.m; sourceTree = "<group>"; };
+		323AC7021E244EAA0031A2AD /* GHGherkinDialectProviderProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinDialectProviderProtocol.h; sourceTree = "<group>"; };
+		323AC7031E244EAA0031A2AD /* GHGherkinLanguageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLanguageConstants.h; sourceTree = "<group>"; };
+		323AC7041E244EAA0031A2AD /* GHGherkinLanguageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLanguageConstants.m; sourceTree = "<group>"; };
+		323AC7051E244EAA0031A2AD /* GHGherkinLanguageSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLanguageSetting.h; sourceTree = "<group>"; };
+		323AC7061E244EAA0031A2AD /* GHGherkinLanguageSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLanguageSetting.m; sourceTree = "<group>"; };
+		323AC7071E244EAA0031A2AD /* GHGherkinLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLine.h; sourceTree = "<group>"; };
+		323AC7081E244EAA0031A2AD /* GHGherkinLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLine.m; sourceTree = "<group>"; };
+		323AC7091E244EAA0031A2AD /* GHGherkinLineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLineProtocol.h; sourceTree = "<group>"; };
+		323AC70A1E244EAA0031A2AD /* GHGherkinLineSpan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHGherkinLineSpan.h; sourceTree = "<group>"; };
+		323AC70B1E244EAA0031A2AD /* GHGherkinLineSpan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHGherkinLineSpan.m; sourceTree = "<group>"; };
+		323AC70C1E244EAA0031A2AD /* GHHasDescriptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasDescriptionProtocol.h; sourceTree = "<group>"; };
+		323AC70D1E244EAA0031A2AD /* GHHasLocationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasLocationProtocol.h; sourceTree = "<group>"; };
+		323AC70E1E244EAA0031A2AD /* GHHasRowsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasRowsProtocol.h; sourceTree = "<group>"; };
+		323AC70F1E244EAA0031A2AD /* GHHasStepsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasStepsProtocol.h; sourceTree = "<group>"; };
+		323AC7101E244EAA0031A2AD /* GHHasTagsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHasTagsProtocol.h; sourceTree = "<group>"; };
+		323AC7111E244EAA0031A2AD /* GHLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHLocation.h; sourceTree = "<group>"; };
+		323AC7121E244EAA0031A2AD /* GHLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHLocation.m; sourceTree = "<group>"; };
+		323AC7131E244EAA0031A2AD /* GHNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHNode.h; sourceTree = "<group>"; };
+		323AC7141E244EAA0031A2AD /* GHNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHNode.m; sourceTree = "<group>"; };
+		323AC7151E244EAA0031A2AD /* GHParser+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GHParser+Extensions.h"; sourceTree = "<group>"; };
+		323AC7161E244EAA0031A2AD /* GHParser+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GHParser+Extensions.m"; sourceTree = "<group>"; };
+		323AC7171E244EAA0031A2AD /* GHParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHParser.h; sourceTree = "<group>"; };
+		323AC7181E244EAA0031A2AD /* GHParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHParser.m; sourceTree = "<group>"; };
+		323AC7191E244EAA0031A2AD /* GHParserException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHParserException.h; sourceTree = "<group>"; };
+		323AC71A1E244EAA0031A2AD /* GHParserException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHParserException.m; sourceTree = "<group>"; };
+		323AC71B1E244EAA0031A2AD /* GHScenario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenario.h; sourceTree = "<group>"; };
+		323AC71C1E244EAA0031A2AD /* GHScenario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHScenario.m; sourceTree = "<group>"; };
+		323AC71D1E244EAA0031A2AD /* GHScenarioDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenarioDefinition.h; sourceTree = "<group>"; };
+		323AC71E1E244EAA0031A2AD /* GHScenarioDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHScenarioDefinition.m; sourceTree = "<group>"; };
+		323AC71F1E244EAA0031A2AD /* GHScenarioDefinition_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenarioDefinition_Private.h; sourceTree = "<group>"; };
+		323AC7201E244EAA0031A2AD /* GHScenarioOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHScenarioOutline.h; sourceTree = "<group>"; };
+		323AC7211E244EAA0031A2AD /* GHScenarioOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHScenarioOutline.m; sourceTree = "<group>"; };
+		323AC7221E244EAA0031A2AD /* GHStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHStep.h; sourceTree = "<group>"; };
+		323AC7231E244EAA0031A2AD /* GHStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHStep.m; sourceTree = "<group>"; };
+		323AC7241E244EAA0031A2AD /* GHStepArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHStepArgument.h; sourceTree = "<group>"; };
+		323AC7251E244EAA0031A2AD /* GHStepArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHStepArgument.m; sourceTree = "<group>"; };
+		323AC7261E244EAA0031A2AD /* GHTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTableCell.h; sourceTree = "<group>"; };
+		323AC7271E244EAA0031A2AD /* GHTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTableCell.m; sourceTree = "<group>"; };
+		323AC7281E244EAA0031A2AD /* GHTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTableRow.h; sourceTree = "<group>"; };
+		323AC7291E244EAA0031A2AD /* GHTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTableRow.m; sourceTree = "<group>"; };
+		323AC72A1E244EAA0031A2AD /* GHTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTag.h; sourceTree = "<group>"; };
+		323AC72B1E244EAA0031A2AD /* GHTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTag.m; sourceTree = "<group>"; };
+		323AC72C1E244EAA0031A2AD /* GHToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHToken.h; sourceTree = "<group>"; };
+		323AC72D1E244EAA0031A2AD /* GHToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHToken.m; sourceTree = "<group>"; };
+		323AC72E1E244EAA0031A2AD /* GHTokenMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTokenMatcher.h; sourceTree = "<group>"; };
+		323AC72F1E244EAA0031A2AD /* GHTokenMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTokenMatcher.m; sourceTree = "<group>"; };
+		323AC7301E244EAA0031A2AD /* GHTokenScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHTokenScanner.h; sourceTree = "<group>"; };
+		323AC7311E244EAA0031A2AD /* GHTokenScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHTokenScanner.m; sourceTree = "<group>"; };
+		323AC7321E244EAA0031A2AD /* NSString+Trim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Trim.h"; sourceTree = "<group>"; };
+		323AC7331E244EAA0031A2AD /* NSString+Trim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Trim.m"; sourceTree = "<group>"; };
+		323AC7351E244EAA0031A2AD /* NSArray+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Hashes.h"; sourceTree = "<group>"; };
+		323AC7361E244EAA0031A2AD /* NSArray+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Hashes.m"; sourceTree = "<group>"; };
+		323AC7371E244EAA0031A2AD /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		323AC7381E244EAA0031A2AD /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		323AC7391E244EAA0031A2AD /* NSString+Formatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatter.h"; sourceTree = "<group>"; };
+		323AC73A1E244EAA0031A2AD /* NSString+Formatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatter.m"; sourceTree = "<group>"; };
+		323AC76B1E244EB30031A2AD /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		442B3C91F261A3400715D638 /* Pods-IosContinuousIntegrationCucumberTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosContinuousIntegrationCucumberTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IosContinuousIntegrationCucumberTests/Pods-IosContinuousIntegrationCucumberTests.debug.xcconfig"; sourceTree = "<group>"; };
 		708D116CF6BB083987AFC172 /* Pods-IosContinuousIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosContinuousIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-IosContinuousIntegration/Pods-IosContinuousIntegration.release.xcconfig"; sourceTree = "<group>"; };
 		A541A31F1BD4CFB70030333E /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fastlane; sourceTree = "<group>"; };
@@ -246,15 +244,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3208BDAB1E231627007852A2 /* Frameworks */ = {
+		323AC6A81E244E540031A2AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE10260E43952CE09291B9C9 /* Pods_IosContinuousIntegrationCucumberTests.framework in Frameworks */,
+				A045EA6FABFE92B1FAFA694E /* Pods_IosContinuousIntegrationCucumberTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3208BDAE1E231627007852A2 /* Frameworks */ = {
+		323AC6AB1E244E540031A2AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,214 +284,213 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3208BDB21E231627007852A2 /* IosContinuousIntegrationCucumberTests */ = {
+		323AC6AF1E244E540031A2AD /* IosContinuousIntegrationCucumberTests */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDD11E2318C2007852A2 /* Cucumberish */,
-				3208BDCF1E2318A4007852A2 /* Features */,
-				3208BDB31E231627007852A2 /* IosContinuousIntegrationCucumberTests.swift */,
-				3208BDC91E231627007852A2 /* Info.plist */,
-				3208BDB51E231627007852A2 /* Screens */,
-				3208BDBA1E231627007852A2 /* Step Definitions */,
-				3208BDBD1E231627007852A2 /* Common */,
-				3208BDC41E231627007852A2 /* Supporting Files */,
+				323AC76B1E244EB30031A2AD /* Features */,
+				323AC6CC1E244EAA0031A2AD /* Cucumberish */,
+				323AC6B01E244E540031A2AD /* IosContinuousIntegrationCucumberTests.swift */,
+				323AC6C61E244E550031A2AD /* Info.plist */,
+				323AC6B21E244E550031A2AD /* Screens */,
+				323AC6B71E244E550031A2AD /* Step Definitions */,
+				323AC6BA1E244E550031A2AD /* Common */,
+				323AC6C11E244E550031A2AD /* Supporting Files */,
 			);
 			path = IosContinuousIntegrationCucumberTests;
 			sourceTree = "<group>";
 		};
-		3208BDB51E231627007852A2 /* Screens */ = {
+		323AC6B21E244E550031A2AD /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDB61E231627007852A2 /* HomeScreen.swift */,
-				3208BDB81E231627007852A2 /* BaseScreen.swift */,
+				323AC6B31E244E550031A2AD /* HomeScreen.swift */,
+				323AC6B51E244E550031A2AD /* BaseScreen.swift */,
 			);
 			name = Screens;
 			sourceTree = "<group>";
 		};
-		3208BDBA1E231627007852A2 /* Step Definitions */ = {
+		323AC6B71E244E550031A2AD /* Step Definitions */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDBB1E231627007852A2 /* HomeScreenSteps.swift */,
+				323AC6B81E244E550031A2AD /* HomeScreenSteps.swift */,
 			);
 			name = "Step Definitions";
 			sourceTree = "<group>";
 		};
-		3208BDBD1E231627007852A2 /* Common */ = {
+		323AC6BA1E244E550031A2AD /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDBE1E231627007852A2 /* Hooks.swift */,
-				3208BDC01E231627007852A2 /* Extensions.swift */,
-				3208BDC21E231627007852A2 /* CommonStepDefinitions.swift */,
+				323AC6BB1E244E550031A2AD /* Hooks.swift */,
+				323AC6BD1E244E550031A2AD /* Extensions.swift */,
+				323AC6BF1E244E550031A2AD /* CommonStepDefinitions.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
 		};
-		3208BDC41E231627007852A2 /* Supporting Files */ = {
+		323AC6C11E244E550031A2AD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3208BE701E23385E007852A2 /* SnapshotHelper.swift */,
-				3208BDC51E231627007852A2 /* IosContinuousIntegrationCucumberTests-Bridging-Header.h */,
-				3208BDC61E231627007852A2 /* IosContinuousIntegrationCucumberTests.h */,
-				3208BDC71E231627007852A2 /* IosContinuousIntegrationCucumberTests.m */,
+				323AC6C21E244E550031A2AD /* IosContinuousIntegrationCucumberTests-Bridging-Header.h */,
+				323AC6C31E244E550031A2AD /* IosContinuousIntegrationCucumberTests.h */,
+				323AC6C41E244E550031A2AD /* IosContinuousIntegrationCucumberTests.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3208BDD11E2318C2007852A2 /* Cucumberish */ = {
+		323AC6CC1E244EAA0031A2AD /* Cucumberish */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDD21E2318C2007852A2 /* Core */,
-				3208BDEE1E2318C2007852A2 /* Cucumberish.h */,
-				3208BDEF1E2318C2007852A2 /* Cucumberish.m */,
-				3208BDF01E2318C2007852A2 /* Dependencies */,
-				3208BE391E2318C3007852A2 /* Utils */,
+				323AC6CD1E244EAA0031A2AD /* Core */,
+				323AC6E91E244EAA0031A2AD /* Cucumberish.h */,
+				323AC6EA1E244EAA0031A2AD /* Cucumberish.m */,
+				323AC6EB1E244EAA0031A2AD /* Dependencies */,
+				323AC7341E244EAA0031A2AD /* Utils */,
 			);
 			path = Cucumberish;
 			sourceTree = "<group>";
 		};
-		3208BDD21E2318C2007852A2 /* Core */ = {
+		323AC6CD1E244EAA0031A2AD /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDD31E2318C2007852A2 /* CCIBlockDefinitions.h */,
-				3208BDD41E2318C2007852A2 /* Managers */,
-				3208BDD91E2318C2007852A2 /* Models */,
+				323AC6CE1E244EAA0031A2AD /* CCIBlockDefinitions.h */,
+				323AC6CF1E244EAA0031A2AD /* Managers */,
+				323AC6D41E244EAA0031A2AD /* Models */,
 			);
 			path = Core;
 			sourceTree = "<group>";
 		};
-		3208BDD41E2318C2007852A2 /* Managers */ = {
+		323AC6CF1E244EAA0031A2AD /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDD51E2318C2007852A2 /* CCIFeaturesManager.h */,
-				3208BDD61E2318C2007852A2 /* CCIFeaturesManager.m */,
-				3208BDD71E2318C2007852A2 /* CCIStepsManager.h */,
-				3208BDD81E2318C2007852A2 /* CCIStepsManager.m */,
+				323AC6D01E244EAA0031A2AD /* CCIFeaturesManager.h */,
+				323AC6D11E244EAA0031A2AD /* CCIFeaturesManager.m */,
+				323AC6D21E244EAA0031A2AD /* CCIStepsManager.h */,
+				323AC6D31E244EAA0031A2AD /* CCIStepsManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		3208BDD91E2318C2007852A2 /* Models */ = {
+		323AC6D41E244EAA0031A2AD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDDA1E2318C2007852A2 /* CCIArgument.h */,
-				3208BDDB1E2318C2007852A2 /* CCIArgument.m */,
-				3208BDDC1E2318C2007852A2 /* CCIAroundHock.h */,
-				3208BDDD1E2318C2007852A2 /* CCIAroundHock.m */,
-				3208BDDE1E2318C2007852A2 /* CCIBackground.h */,
-				3208BDDF1E2318C2007852A2 /* CCIBackground.m */,
-				3208BDE01E2318C2007852A2 /* CCIExample.h */,
-				3208BDE11E2318C2007852A2 /* CCIExample.m */,
-				3208BDE21E2318C2007852A2 /* CCIFeature.h */,
-				3208BDE31E2318C2007852A2 /* CCIFeature.m */,
-				3208BDE41E2318C2007852A2 /* CCIHock.h */,
-				3208BDE51E2318C2007852A2 /* CCIHock.m */,
-				3208BDE61E2318C2007852A2 /* CCILocation.h */,
-				3208BDE71E2318C2007852A2 /* CCILocation.m */,
-				3208BDE81E2318C2007852A2 /* CCIScenarioDefinition.h */,
-				3208BDE91E2318C2007852A2 /* CCIScenarioDefinition.m */,
-				3208BDEA1E2318C2007852A2 /* CCIStep.h */,
-				3208BDEB1E2318C2007852A2 /* CCIStep.m */,
-				3208BDEC1E2318C2007852A2 /* CCIStepDefinition.h */,
-				3208BDED1E2318C2007852A2 /* CCIStepDefinition.m */,
+				323AC6D51E244EAA0031A2AD /* CCIArgument.h */,
+				323AC6D61E244EAA0031A2AD /* CCIArgument.m */,
+				323AC6D71E244EAA0031A2AD /* CCIAroundHock.h */,
+				323AC6D81E244EAA0031A2AD /* CCIAroundHock.m */,
+				323AC6D91E244EAA0031A2AD /* CCIBackground.h */,
+				323AC6DA1E244EAA0031A2AD /* CCIBackground.m */,
+				323AC6DB1E244EAA0031A2AD /* CCIExample.h */,
+				323AC6DC1E244EAA0031A2AD /* CCIExample.m */,
+				323AC6DD1E244EAA0031A2AD /* CCIFeature.h */,
+				323AC6DE1E244EAA0031A2AD /* CCIFeature.m */,
+				323AC6DF1E244EAA0031A2AD /* CCIHock.h */,
+				323AC6E01E244EAA0031A2AD /* CCIHock.m */,
+				323AC6E11E244EAA0031A2AD /* CCILocation.h */,
+				323AC6E21E244EAA0031A2AD /* CCILocation.m */,
+				323AC6E31E244EAA0031A2AD /* CCIScenarioDefinition.h */,
+				323AC6E41E244EAA0031A2AD /* CCIScenarioDefinition.m */,
+				323AC6E51E244EAA0031A2AD /* CCIStep.h */,
+				323AC6E61E244EAA0031A2AD /* CCIStep.m */,
+				323AC6E71E244EAA0031A2AD /* CCIStepDefinition.h */,
+				323AC6E81E244EAA0031A2AD /* CCIStepDefinition.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		3208BDF01E2318C2007852A2 /* Dependencies */ = {
+		323AC6EB1E244EAA0031A2AD /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDF11E2318C2007852A2 /* Gherkin */,
+				323AC6EC1E244EAA0031A2AD /* Gherkin */,
 			);
 			path = Dependencies;
 			sourceTree = "<group>";
 		};
-		3208BDF11E2318C2007852A2 /* Gherkin */ = {
+		323AC6EC1E244EAA0031A2AD /* Gherkin */ = {
 			isa = PBXGroup;
 			children = (
-				3208BDF21E2318C2007852A2 /* GHAstBuilder.h */,
-				3208BDF31E2318C2007852A2 /* GHAstBuilder.m */,
-				3208BDF41E2318C2007852A2 /* GHAstNode.h */,
-				3208BDF51E2318C2007852A2 /* GHAstNode.m */,
-				3208BDF61E2318C2007852A2 /* GHBackground.h */,
-				3208BDF71E2318C2007852A2 /* GHBackground.m */,
-				3208BDF81E2318C2007852A2 /* GHComment.h */,
-				3208BDF91E2318C2007852A2 /* GHComment.m */,
-				3208BDFA1E2318C2007852A2 /* GHDataTable.h */,
-				3208BDFB1E2318C2007852A2 /* GHDataTable.m */,
-				3208BDFC1E2318C2007852A2 /* GHDocString.h */,
-				3208BDFD1E2318C2007852A2 /* GHDocString.m */,
-				3208BDFE1E2318C2007852A2 /* gherkin-languages.json */,
-				3208BDFF1E2318C2007852A2 /* GHExamples.h */,
-				3208BE001E2318C2007852A2 /* GHExamples.m */,
-				3208BE011E2318C2007852A2 /* GHFeature.h */,
-				3208BE021E2318C2007852A2 /* GHFeature.m */,
-				3208BE031E2318C2007852A2 /* GHGherkinDialect.h */,
-				3208BE041E2318C2007852A2 /* GHGherkinDialect.m */,
-				3208BE051E2318C2007852A2 /* GHGherkinDialectProvider.h */,
-				3208BE061E2318C2007852A2 /* GHGherkinDialectProvider.m */,
-				3208BE071E2318C2007852A2 /* GHGherkinDialectProviderProtocol.h */,
-				3208BE081E2318C2007852A2 /* GHGherkinLanguageConstants.h */,
-				3208BE091E2318C2007852A2 /* GHGherkinLanguageConstants.m */,
-				3208BE0A1E2318C2007852A2 /* GHGherkinLanguageSetting.h */,
-				3208BE0B1E2318C2007852A2 /* GHGherkinLanguageSetting.m */,
-				3208BE0C1E2318C2007852A2 /* GHGherkinLine.h */,
-				3208BE0D1E2318C2007852A2 /* GHGherkinLine.m */,
-				3208BE0E1E2318C2007852A2 /* GHGherkinLineProtocol.h */,
-				3208BE0F1E2318C2007852A2 /* GHGherkinLineSpan.h */,
-				3208BE101E2318C2007852A2 /* GHGherkinLineSpan.m */,
-				3208BE111E2318C2007852A2 /* GHHasDescriptionProtocol.h */,
-				3208BE121E2318C2007852A2 /* GHHasLocationProtocol.h */,
-				3208BE131E2318C2007852A2 /* GHHasRowsProtocol.h */,
-				3208BE141E2318C2007852A2 /* GHHasStepsProtocol.h */,
-				3208BE151E2318C2007852A2 /* GHHasTagsProtocol.h */,
-				3208BE161E2318C2007852A2 /* GHLocation.h */,
-				3208BE171E2318C2007852A2 /* GHLocation.m */,
-				3208BE181E2318C2007852A2 /* GHNode.h */,
-				3208BE191E2318C2007852A2 /* GHNode.m */,
-				3208BE1A1E2318C2007852A2 /* GHParser+Extensions.h */,
-				3208BE1B1E2318C2007852A2 /* GHParser+Extensions.m */,
-				3208BE1C1E2318C2007852A2 /* GHParser.h */,
-				3208BE1D1E2318C2007852A2 /* GHParser.m */,
-				3208BE1E1E2318C2007852A2 /* GHParserException.h */,
-				3208BE1F1E2318C2007852A2 /* GHParserException.m */,
-				3208BE201E2318C2007852A2 /* GHScenario.h */,
-				3208BE211E2318C3007852A2 /* GHScenario.m */,
-				3208BE221E2318C3007852A2 /* GHScenarioDefinition.h */,
-				3208BE231E2318C3007852A2 /* GHScenarioDefinition.m */,
-				3208BE241E2318C3007852A2 /* GHScenarioDefinition_Private.h */,
-				3208BE251E2318C3007852A2 /* GHScenarioOutline.h */,
-				3208BE261E2318C3007852A2 /* GHScenarioOutline.m */,
-				3208BE271E2318C3007852A2 /* GHStep.h */,
-				3208BE281E2318C3007852A2 /* GHStep.m */,
-				3208BE291E2318C3007852A2 /* GHStepArgument.h */,
-				3208BE2A1E2318C3007852A2 /* GHStepArgument.m */,
-				3208BE2B1E2318C3007852A2 /* GHTableCell.h */,
-				3208BE2C1E2318C3007852A2 /* GHTableCell.m */,
-				3208BE2D1E2318C3007852A2 /* GHTableRow.h */,
-				3208BE2E1E2318C3007852A2 /* GHTableRow.m */,
-				3208BE2F1E2318C3007852A2 /* GHTag.h */,
-				3208BE301E2318C3007852A2 /* GHTag.m */,
-				3208BE311E2318C3007852A2 /* GHToken.h */,
-				3208BE321E2318C3007852A2 /* GHToken.m */,
-				3208BE331E2318C3007852A2 /* GHTokenMatcher.h */,
-				3208BE341E2318C3007852A2 /* GHTokenMatcher.m */,
-				3208BE351E2318C3007852A2 /* GHTokenScanner.h */,
-				3208BE361E2318C3007852A2 /* GHTokenScanner.m */,
-				3208BE371E2318C3007852A2 /* NSString+Trim.h */,
-				3208BE381E2318C3007852A2 /* NSString+Trim.m */,
+				323AC6ED1E244EAA0031A2AD /* GHAstBuilder.h */,
+				323AC6EE1E244EAA0031A2AD /* GHAstBuilder.m */,
+				323AC6EF1E244EAA0031A2AD /* GHAstNode.h */,
+				323AC6F01E244EAA0031A2AD /* GHAstNode.m */,
+				323AC6F11E244EAA0031A2AD /* GHBackground.h */,
+				323AC6F21E244EAA0031A2AD /* GHBackground.m */,
+				323AC6F31E244EAA0031A2AD /* GHComment.h */,
+				323AC6F41E244EAA0031A2AD /* GHComment.m */,
+				323AC6F51E244EAA0031A2AD /* GHDataTable.h */,
+				323AC6F61E244EAA0031A2AD /* GHDataTable.m */,
+				323AC6F71E244EAA0031A2AD /* GHDocString.h */,
+				323AC6F81E244EAA0031A2AD /* GHDocString.m */,
+				323AC6F91E244EAA0031A2AD /* gherkin-languages.json */,
+				323AC6FA1E244EAA0031A2AD /* GHExamples.h */,
+				323AC6FB1E244EAA0031A2AD /* GHExamples.m */,
+				323AC6FC1E244EAA0031A2AD /* GHFeature.h */,
+				323AC6FD1E244EAA0031A2AD /* GHFeature.m */,
+				323AC6FE1E244EAA0031A2AD /* GHGherkinDialect.h */,
+				323AC6FF1E244EAA0031A2AD /* GHGherkinDialect.m */,
+				323AC7001E244EAA0031A2AD /* GHGherkinDialectProvider.h */,
+				323AC7011E244EAA0031A2AD /* GHGherkinDialectProvider.m */,
+				323AC7021E244EAA0031A2AD /* GHGherkinDialectProviderProtocol.h */,
+				323AC7031E244EAA0031A2AD /* GHGherkinLanguageConstants.h */,
+				323AC7041E244EAA0031A2AD /* GHGherkinLanguageConstants.m */,
+				323AC7051E244EAA0031A2AD /* GHGherkinLanguageSetting.h */,
+				323AC7061E244EAA0031A2AD /* GHGherkinLanguageSetting.m */,
+				323AC7071E244EAA0031A2AD /* GHGherkinLine.h */,
+				323AC7081E244EAA0031A2AD /* GHGherkinLine.m */,
+				323AC7091E244EAA0031A2AD /* GHGherkinLineProtocol.h */,
+				323AC70A1E244EAA0031A2AD /* GHGherkinLineSpan.h */,
+				323AC70B1E244EAA0031A2AD /* GHGherkinLineSpan.m */,
+				323AC70C1E244EAA0031A2AD /* GHHasDescriptionProtocol.h */,
+				323AC70D1E244EAA0031A2AD /* GHHasLocationProtocol.h */,
+				323AC70E1E244EAA0031A2AD /* GHHasRowsProtocol.h */,
+				323AC70F1E244EAA0031A2AD /* GHHasStepsProtocol.h */,
+				323AC7101E244EAA0031A2AD /* GHHasTagsProtocol.h */,
+				323AC7111E244EAA0031A2AD /* GHLocation.h */,
+				323AC7121E244EAA0031A2AD /* GHLocation.m */,
+				323AC7131E244EAA0031A2AD /* GHNode.h */,
+				323AC7141E244EAA0031A2AD /* GHNode.m */,
+				323AC7151E244EAA0031A2AD /* GHParser+Extensions.h */,
+				323AC7161E244EAA0031A2AD /* GHParser+Extensions.m */,
+				323AC7171E244EAA0031A2AD /* GHParser.h */,
+				323AC7181E244EAA0031A2AD /* GHParser.m */,
+				323AC7191E244EAA0031A2AD /* GHParserException.h */,
+				323AC71A1E244EAA0031A2AD /* GHParserException.m */,
+				323AC71B1E244EAA0031A2AD /* GHScenario.h */,
+				323AC71C1E244EAA0031A2AD /* GHScenario.m */,
+				323AC71D1E244EAA0031A2AD /* GHScenarioDefinition.h */,
+				323AC71E1E244EAA0031A2AD /* GHScenarioDefinition.m */,
+				323AC71F1E244EAA0031A2AD /* GHScenarioDefinition_Private.h */,
+				323AC7201E244EAA0031A2AD /* GHScenarioOutline.h */,
+				323AC7211E244EAA0031A2AD /* GHScenarioOutline.m */,
+				323AC7221E244EAA0031A2AD /* GHStep.h */,
+				323AC7231E244EAA0031A2AD /* GHStep.m */,
+				323AC7241E244EAA0031A2AD /* GHStepArgument.h */,
+				323AC7251E244EAA0031A2AD /* GHStepArgument.m */,
+				323AC7261E244EAA0031A2AD /* GHTableCell.h */,
+				323AC7271E244EAA0031A2AD /* GHTableCell.m */,
+				323AC7281E244EAA0031A2AD /* GHTableRow.h */,
+				323AC7291E244EAA0031A2AD /* GHTableRow.m */,
+				323AC72A1E244EAA0031A2AD /* GHTag.h */,
+				323AC72B1E244EAA0031A2AD /* GHTag.m */,
+				323AC72C1E244EAA0031A2AD /* GHToken.h */,
+				323AC72D1E244EAA0031A2AD /* GHToken.m */,
+				323AC72E1E244EAA0031A2AD /* GHTokenMatcher.h */,
+				323AC72F1E244EAA0031A2AD /* GHTokenMatcher.m */,
+				323AC7301E244EAA0031A2AD /* GHTokenScanner.h */,
+				323AC7311E244EAA0031A2AD /* GHTokenScanner.m */,
+				323AC7321E244EAA0031A2AD /* NSString+Trim.h */,
+				323AC7331E244EAA0031A2AD /* NSString+Trim.m */,
 			);
 			path = Gherkin;
 			sourceTree = "<group>";
 		};
-		3208BE391E2318C3007852A2 /* Utils */ = {
+		323AC7341E244EAA0031A2AD /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				3208BE3A1E2318C3007852A2 /* NSArray+Hashes.h */,
-				3208BE3B1E2318C3007852A2 /* NSArray+Hashes.m */,
-				3208BE3C1E2318C3007852A2 /* NSObject+Dictionary.h */,
-				3208BE3D1E2318C3007852A2 /* NSObject+Dictionary.m */,
-				3208BE3E1E2318C3007852A2 /* NSString+Formatter.h */,
-				3208BE3F1E2318C3007852A2 /* NSString+Formatter.m */,
+				323AC7351E244EAA0031A2AD /* NSArray+Hashes.h */,
+				323AC7361E244EAA0031A2AD /* NSArray+Hashes.m */,
+				323AC7371E244EAA0031A2AD /* NSObject+Dictionary.h */,
+				323AC7381E244EAA0031A2AD /* NSObject+Dictionary.m */,
+				323AC7391E244EAA0031A2AD /* NSString+Formatter.h */,
+				323AC73A1E244EAA0031A2AD /* NSString+Formatter.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -516,7 +513,7 @@
 				A5CDD0CD1BCE267B00E6F2BD /* IosContinuousIntegration */,
 				A5CDD0E41BCE267B00E6F2BD /* IosContinuousIntegrationTests */,
 				A5CDD0EF1BCE267B00E6F2BD /* IosContinuousIntegrationUITests */,
-				3208BDB21E231627007852A2 /* IosContinuousIntegrationCucumberTests */,
+				323AC6AF1E244E540031A2AD /* IosContinuousIntegrationCucumberTests */,
 				A5CDD0CC1BCE267B00E6F2BD /* Products */,
 				B4A17474951DC36718A95042 /* Frameworks */,
 				7DFBFD312265E6DF9EAE4704 /* Pods */,
@@ -529,7 +526,7 @@
 				A5CDD0CB1BCE267B00E6F2BD /* IosContinuousIntegration.app */,
 				A5CDD0E11BCE267B00E6F2BD /* IosContinuousIntegrationTests.xctest */,
 				A5CDD0EC1BCE267B00E6F2BD /* IosContinuousIntegrationUITests.xctest */,
-				3208BDB11E231627007852A2 /* IosContinuousIntegrationCucumberTests.xctest */,
+				323AC6AE1E244E540031A2AD /* IosContinuousIntegrationCucumberTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -579,28 +576,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3208BDB01E231627007852A2 /* IosContinuousIntegrationCucumberTests */ = {
+		323AC6AD1E244E540031A2AD /* IosContinuousIntegrationCucumberTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3208BDCE1E231627007852A2 /* Build configuration list for PBXNativeTarget "IosContinuousIntegrationCucumberTests" */;
+			buildConfigurationList = 323AC6C91E244E550031A2AD /* Build configuration list for PBXNativeTarget "IosContinuousIntegrationCucumberTests" */;
 			buildPhases = (
-				3A292105114CCF25735743CE /* [CP] Check Pods Manifest.lock */,
-				3208BDAA1E231627007852A2 /* Sources */,
-				3208BDAB1E231627007852A2 /* Frameworks */,
-				3208BDAC1E231627007852A2 /* Resources */,
-				3208BDAD1E231627007852A2 /* Sources */,
-				3208BDAE1E231627007852A2 /* Frameworks */,
-				3208BDAF1E231627007852A2 /* Resources */,
-				293D3144A9D1F4B3010FFBB5 /* [CP] Embed Pods Frameworks */,
-				F98D751EC4E41E1F7A04BFDC /* [CP] Copy Pods Resources */,
+				0BFB1E025331C90D64074C0C /* [CP] Check Pods Manifest.lock */,
+				323AC6A71E244E540031A2AD /* Sources */,
+				323AC6A81E244E540031A2AD /* Frameworks */,
+				323AC6A91E244E540031A2AD /* Resources */,
+				323AC6AA1E244E540031A2AD /* Sources */,
+				323AC6AB1E244E540031A2AD /* Frameworks */,
+				323AC6AC1E244E540031A2AD /* Resources */,
+				3835081DB6A06C69F8ACF309 /* [CP] Embed Pods Frameworks */,
+				031D18B0676C98C3CE5FBDF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3208BDCB1E231627007852A2 /* PBXTargetDependency */,
+				323AC6C81E244E550031A2AD /* PBXTargetDependency */,
 			);
 			name = IosContinuousIntegrationCucumberTests;
 			productName = IosContinuousIntegrationCucumberTests;
-			productReference = 3208BDB11E231627007852A2 /* IosContinuousIntegrationCucumberTests.xctest */;
+			productReference = 323AC6AE1E244E540031A2AD /* IosContinuousIntegrationCucumberTests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		A5CDD0CA1BCE267B00E6F2BD /* IosContinuousIntegration */ = {
@@ -669,8 +666,8 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Adrien Nicolet";
 				TargetAttributes = {
-					3208BDB01E231627007852A2 = {
-						CreatedOnToolsVersion = 8.2;
+					323AC6AD1E244E540031A2AD = {
+						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 8D596865QB;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A5CDD0CA1BCE267B00E6F2BD;
@@ -710,22 +707,22 @@
 				A5CDD0CA1BCE267B00E6F2BD /* IosContinuousIntegration */,
 				A5CDD0E01BCE267B00E6F2BD /* IosContinuousIntegrationTests */,
 				A5CDD0EB1BCE267B00E6F2BD /* IosContinuousIntegrationUITests */,
-				3208BDB01E231627007852A2 /* IosContinuousIntegrationCucumberTests */,
+				323AC6AD1E244E540031A2AD /* IosContinuousIntegrationCucumberTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3208BDAC1E231627007852A2 /* Resources */ = {
+		323AC6A91E244E540031A2AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3208BE531E2318C3007852A2 /* gherkin-languages.json in Resources */,
-				3208BDD01E2318A4007852A2 /* Features in Resources */,
+				323AC74E1E244EAA0031A2AD /* gherkin-languages.json in Resources */,
+				323AC76C1E244EB30031A2AD /* Features in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3208BDAF1E231627007852A2 /* Resources */ = {
+		323AC6AC1E244E540031A2AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -760,6 +757,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		031D18B0676C98C3CE5FBDF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosContinuousIntegrationCucumberTests/Pods-IosContinuousIntegrationCucumberTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BFB1E025331C90D64074C0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		230783E1B6C5573A3B091175 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -773,21 +800,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosContinuousIntegration/Pods-IosContinuousIntegration-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		293D3144A9D1F4B3010FFBB5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosContinuousIntegrationCucumberTests/Pods-IosContinuousIntegrationCucumberTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		336079C9FA2A67E6F66C2ECF /* [CP] Copy Pods Resources */ = {
@@ -805,19 +817,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosContinuousIntegration/Pods-IosContinuousIntegration-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3A292105114CCF25735743CE /* [CP] Check Pods Manifest.lock */ = {
+		3835081DB6A06C69F8ACF309 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosContinuousIntegrationCucumberTests/Pods-IosContinuousIntegrationCucumberTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9B73ADE3BFA47408EB0EEEA5 /* [CP] Check Pods Manifest.lock */ = {
@@ -835,88 +847,72 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		F98D751EC4E41E1F7A04BFDC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IosContinuousIntegrationCucumberTests/Pods-IosContinuousIntegrationCucumberTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3208BDAA1E231627007852A2 /* Sources */ = {
+		323AC6A71E244E540031A2AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3208BE591E2318C3007852A2 /* GHGherkinLanguageSetting.m in Sources */,
-				3208BE631E2318C3007852A2 /* GHScenarioOutline.m in Sources */,
-				3208BE5A1E2318C3007852A2 /* GHGherkinLine.m in Sources */,
-				3208BDBC1E231627007852A2 /* HomeScreenSteps.swift in Sources */,
-				3208BDC81E231627007852A2 /* IosContinuousIntegrationCucumberTests.m in Sources */,
-				3208BDC11E231627007852A2 /* Extensions.swift in Sources */,
-				3208BE461E2318C3007852A2 /* CCIFeature.m in Sources */,
-				3208BE6A1E2318C3007852A2 /* GHTokenMatcher.m in Sources */,
-				3208BE441E2318C3007852A2 /* CCIBackground.m in Sources */,
-				3208BE6E1E2318C3007852A2 /* NSObject+Dictionary.m in Sources */,
-				3208BE651E2318C3007852A2 /* GHStepArgument.m in Sources */,
-				3208BE5C1E2318C3007852A2 /* GHLocation.m in Sources */,
-				3208BE4D1E2318C3007852A2 /* GHAstBuilder.m in Sources */,
-				3208BE601E2318C3007852A2 /* GHParserException.m in Sources */,
-				3208BE5D1E2318C3007852A2 /* GHNode.m in Sources */,
-				3208BE431E2318C3007852A2 /* CCIAroundHock.m in Sources */,
-				3208BDB71E231627007852A2 /* HomeScreen.swift in Sources */,
-				3208BE4F1E2318C3007852A2 /* GHBackground.m in Sources */,
-				3208BE611E2318C3007852A2 /* GHScenario.m in Sources */,
-				3208BE6D1E2318C3007852A2 /* NSArray+Hashes.m in Sources */,
-				3208BE541E2318C3007852A2 /* GHExamples.m in Sources */,
-				3208BE571E2318C3007852A2 /* GHGherkinDialectProvider.m in Sources */,
-				3208BE5B1E2318C3007852A2 /* GHGherkinLineSpan.m in Sources */,
-				3208BE711E23385E007852A2 /* SnapshotHelper.swift in Sources */,
-				3208BE521E2318C3007852A2 /* GHDocString.m in Sources */,
-				3208BE401E2318C3007852A2 /* CCIFeaturesManager.m in Sources */,
-				3208BE501E2318C3007852A2 /* GHComment.m in Sources */,
-				3208BE641E2318C3007852A2 /* GHStep.m in Sources */,
-				3208BE471E2318C3007852A2 /* CCIHock.m in Sources */,
-				3208BE6B1E2318C3007852A2 /* GHTokenScanner.m in Sources */,
-				3208BE5F1E2318C3007852A2 /* GHParser.m in Sources */,
-				3208BE581E2318C3007852A2 /* GHGherkinLanguageConstants.m in Sources */,
-				3208BE661E2318C3007852A2 /* GHTableCell.m in Sources */,
-				3208BDB41E231627007852A2 /* IosContinuousIntegrationCucumberTests.swift in Sources */,
-				3208BE4B1E2318C3007852A2 /* CCIStepDefinition.m in Sources */,
-				3208BDB91E231627007852A2 /* BaseScreen.swift in Sources */,
-				3208BE671E2318C3007852A2 /* GHTableRow.m in Sources */,
-				3208BE551E2318C3007852A2 /* GHFeature.m in Sources */,
-				3208BE5E1E2318C3007852A2 /* GHParser+Extensions.m in Sources */,
-				3208BE691E2318C3007852A2 /* GHToken.m in Sources */,
-				3208BE411E2318C3007852A2 /* CCIStepsManager.m in Sources */,
-				3208BE451E2318C3007852A2 /* CCIExample.m in Sources */,
-				3208BE6F1E2318C3007852A2 /* NSString+Formatter.m in Sources */,
-				3208BE481E2318C3007852A2 /* CCILocation.m in Sources */,
-				3208BE4A1E2318C3007852A2 /* CCIStep.m in Sources */,
-				3208BE6C1E2318C3007852A2 /* NSString+Trim.m in Sources */,
-				3208BE491E2318C3007852A2 /* CCIScenarioDefinition.m in Sources */,
-				3208BE4C1E2318C3007852A2 /* Cucumberish.m in Sources */,
-				3208BDBF1E231627007852A2 /* Hooks.swift in Sources */,
-				3208BDC31E231627007852A2 /* CommonStepDefinitions.swift in Sources */,
-				3208BE4E1E2318C3007852A2 /* GHAstNode.m in Sources */,
-				3208BE421E2318C3007852A2 /* CCIArgument.m in Sources */,
-				3208BE561E2318C3007852A2 /* GHGherkinDialect.m in Sources */,
-				3208BE681E2318C3007852A2 /* GHTag.m in Sources */,
-				3208BE511E2318C3007852A2 /* GHDataTable.m in Sources */,
-				3208BE621E2318C3007852A2 /* GHScenarioDefinition.m in Sources */,
+				323AC7541E244EAA0031A2AD /* GHGherkinLanguageSetting.m in Sources */,
+				323AC75E1E244EAA0031A2AD /* GHScenarioOutline.m in Sources */,
+				323AC7551E244EAA0031A2AD /* GHGherkinLine.m in Sources */,
+				323AC6B91E244E550031A2AD /* HomeScreenSteps.swift in Sources */,
+				323AC6C51E244E550031A2AD /* IosContinuousIntegrationCucumberTests.m in Sources */,
+				323AC6BE1E244E550031A2AD /* Extensions.swift in Sources */,
+				323AC7411E244EAA0031A2AD /* CCIFeature.m in Sources */,
+				323AC7651E244EAA0031A2AD /* GHTokenMatcher.m in Sources */,
+				323AC73F1E244EAA0031A2AD /* CCIBackground.m in Sources */,
+				323AC7691E244EAA0031A2AD /* NSObject+Dictionary.m in Sources */,
+				323AC7601E244EAA0031A2AD /* GHStepArgument.m in Sources */,
+				323AC7571E244EAA0031A2AD /* GHLocation.m in Sources */,
+				323AC7481E244EAA0031A2AD /* GHAstBuilder.m in Sources */,
+				323AC75B1E244EAA0031A2AD /* GHParserException.m in Sources */,
+				323AC7581E244EAA0031A2AD /* GHNode.m in Sources */,
+				323AC73E1E244EAA0031A2AD /* CCIAroundHock.m in Sources */,
+				323AC6B41E244E550031A2AD /* HomeScreen.swift in Sources */,
+				323AC74A1E244EAA0031A2AD /* GHBackground.m in Sources */,
+				323AC75C1E244EAA0031A2AD /* GHScenario.m in Sources */,
+				323AC7681E244EAA0031A2AD /* NSArray+Hashes.m in Sources */,
+				323AC74F1E244EAA0031A2AD /* GHExamples.m in Sources */,
+				323AC7521E244EAA0031A2AD /* GHGherkinDialectProvider.m in Sources */,
+				323AC7561E244EAA0031A2AD /* GHGherkinLineSpan.m in Sources */,
+				323AC74D1E244EAA0031A2AD /* GHDocString.m in Sources */,
+				323AC73B1E244EAA0031A2AD /* CCIFeaturesManager.m in Sources */,
+				323AC74B1E244EAA0031A2AD /* GHComment.m in Sources */,
+				323AC75F1E244EAA0031A2AD /* GHStep.m in Sources */,
+				323AC7421E244EAA0031A2AD /* CCIHock.m in Sources */,
+				323AC7661E244EAA0031A2AD /* GHTokenScanner.m in Sources */,
+				323AC75A1E244EAA0031A2AD /* GHParser.m in Sources */,
+				323AC7531E244EAA0031A2AD /* GHGherkinLanguageConstants.m in Sources */,
+				323AC7611E244EAA0031A2AD /* GHTableCell.m in Sources */,
+				323AC6B11E244E540031A2AD /* IosContinuousIntegrationCucumberTests.swift in Sources */,
+				323AC7461E244EAA0031A2AD /* CCIStepDefinition.m in Sources */,
+				323AC6B61E244E550031A2AD /* BaseScreen.swift in Sources */,
+				323AC7621E244EAA0031A2AD /* GHTableRow.m in Sources */,
+				323AC7501E244EAA0031A2AD /* GHFeature.m in Sources */,
+				323AC7591E244EAA0031A2AD /* GHParser+Extensions.m in Sources */,
+				323AC7641E244EAA0031A2AD /* GHToken.m in Sources */,
+				323AC73C1E244EAA0031A2AD /* CCIStepsManager.m in Sources */,
+				323AC7401E244EAA0031A2AD /* CCIExample.m in Sources */,
+				323AC76A1E244EAA0031A2AD /* NSString+Formatter.m in Sources */,
+				323AC7431E244EAA0031A2AD /* CCILocation.m in Sources */,
+				323AC7451E244EAA0031A2AD /* CCIStep.m in Sources */,
+				323AC7671E244EAA0031A2AD /* NSString+Trim.m in Sources */,
+				323AC7441E244EAA0031A2AD /* CCIScenarioDefinition.m in Sources */,
+				323AC7471E244EAA0031A2AD /* Cucumberish.m in Sources */,
+				323AC6BC1E244E550031A2AD /* Hooks.swift in Sources */,
+				323AC6C01E244E550031A2AD /* CommonStepDefinitions.swift in Sources */,
+				323AC7491E244EAA0031A2AD /* GHAstNode.m in Sources */,
+				323AC73D1E244EAA0031A2AD /* CCIArgument.m in Sources */,
+				323AC7511E244EAA0031A2AD /* GHGherkinDialect.m in Sources */,
+				323AC7631E244EAA0031A2AD /* GHTag.m in Sources */,
+				323AC74C1E244EAA0031A2AD /* GHDataTable.m in Sources */,
+				323AC75D1E244EAA0031A2AD /* GHScenarioDefinition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3208BDAD1E231627007852A2 /* Sources */ = {
+		323AC6AA1E244E540031A2AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -952,10 +948,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3208BDCB1E231627007852A2 /* PBXTargetDependency */ = {
+		323AC6C81E244E550031A2AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A5CDD0CA1BCE267B00E6F2BD /* IosContinuousIntegration */;
-			targetProxy = 3208BDCA1E231627007852A2 /* PBXContainerItemProxy */;
+			targetProxy = 323AC6C71E244E550031A2AD /* PBXContainerItemProxy */;
 		};
 		A5CDD0E31BCE267B00E6F2BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -989,7 +985,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3208BDCC1E231627007852A2 /* Debug */ = {
+		323AC6CA1E244E550031A2AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 442B3C91F261A3400715D638 /* Pods-IosContinuousIntegrationCucumberTests.debug.xcconfig */;
 			buildSettings = {
@@ -1014,7 +1010,7 @@
 			};
 			name = Debug;
 		};
-		3208BDCD1E231627007852A2 /* Release */ = {
+		323AC6CB1E244E550031A2AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0EC919374653CC2BD0A770D0 /* Pods-IosContinuousIntegrationCucumberTests.release.xcconfig */;
 			buildSettings = {
@@ -1130,7 +1126,7 @@
 			baseConfigurationReference = E8E3155F37EDF8243B00D5AF /* Pods-IosContinuousIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 8D596865QB;
 				INFOPLIST_FILE = IosContinuousIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1145,7 +1141,7 @@
 			baseConfigurationReference = 708D116CF6BB083987AFC172 /* Pods-IosContinuousIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 8D596865QB;
 				INFOPLIST_FILE = IosContinuousIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1214,14 +1210,13 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3208BDCE1E231627007852A2 /* Build configuration list for PBXNativeTarget "IosContinuousIntegrationCucumberTests" */ = {
+		323AC6C91E244E550031A2AD /* Build configuration list for PBXNativeTarget "IosContinuousIntegrationCucumberTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3208BDCC1E231627007852A2 /* Debug */,
-				3208BDCD1E231627007852A2 /* Release */,
+				323AC6CA1E244E550031A2AD /* Debug */,
+				323AC6CB1E244E550031A2AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		A5CDD0C61BCE267B00E6F2BD /* Build configuration list for PBXProject "IosContinuousIntegration" */ = {
 			isa = XCConfigurationList;

@@ -15,29 +15,23 @@
 
 
 import Foundation
-//import Cucumberish //Applicable only if you use Cocoapods installation with use_frameworks!
-class CucumberishInitializer: NSObject {
+import XCTest
+class IosContinuousIntegrationCucumberTests: NSObject {
     class func CucumberishSwiftInit()
     {
-        //Using XCUIApplication only available in XCUI test targets not the normal Unit test targets.
         var application : XCUIApplication!
         //A closure that will be executed just before executing any of your features
         beforeStart { () -> Void in
             application = XCUIApplication()
-            setupSnapshot(application)
+            CommonStepDefinitions.setup(application);
+            HomeScreenSteps().HomeScreenSteps()
         }
         //A Given step definition
         Given("the app is running") { (args, userInfo) -> Void in
             application.launch()
-        }
-        //Another step definition
-        And("all data cleared") { (args, userInfo) -> Void in
-            //Assume you defined an "I tap on \"(.*)\" button" step previousely, you can call it from your code as well.
-            let testCase = userInfo?[kXCTestCaseKey] as? XCTestCase
-            SStep(testCase, "I tap the \"Clear All Data\" button")
+            
         }
         //Tell Cucumberish the name of your features folder and let it execute them for you...
-        let bundle = Bundle(for: CucumberishInitializer.self)
-        Cucumberish.executeFeatures(inDirectory: "Features",from: bundle, includeTags: nil, excludeTags: nil)
+        Cucumberish.executeFeatures(inDirectory: "Features", includeTags: nil, excludeTags: nil)
     }
 }

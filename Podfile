@@ -6,5 +6,5 @@ target 'IosContinuousIntegration' do
 end
 
 target 'IosContinuousIntegrationCucumberTests' do
-    pod 'Cucumberish'
+    pod 'XCFit'
 end

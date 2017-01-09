@@ -23,6 +23,6 @@
 __attribute__((constructor))
 void CucumberishInit()
 {
-    //[IosContinuousIntegrationCucumberTests CucumberishSwiftInit];
+    [IosContinuousIntegrationCucumberTests CucumberishSwiftInit];
     
 }
