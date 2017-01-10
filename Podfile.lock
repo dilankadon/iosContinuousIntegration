@@ -1,15 +1,15 @@
 PODS:
-  - Alamofire (4.0.1)
+  - Alamofire (4.2.0)
   - XCFit (2.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0.0)
+  - Alamofire
   - XCFit
 
 SPEC CHECKSUMS:
-  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   XCFit: 26459ab91b318c3742859b01a08f81597e74ec1d
 
-PODFILE CHECKSUM: 368e9055708b08cfb0fb1d32b973136b54502376
+PODFILE CHECKSUM: 86a7c581f4cdc956fdd18c7d6a42bf6c92cca854
 
 COCOAPODS: 1.1.1
