@@ -1,0 +1,7 @@
+language: objective-c 
+osx_image: xcode8
+xcode_workspace: IosContinuousIntegration.xcworkspace
+xcode_scheme: IosContinuousIntegration
+xcode_sdk: 'iPhone 7'
+script: 
+- fastlane ios test
