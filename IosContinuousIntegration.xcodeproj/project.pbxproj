@@ -287,10 +287,10 @@
 		323AC6AF1E244E540031A2AD /* IosContinuousIntegrationCucumberTests */ = {
 			isa = PBXGroup;
 			children = (
-				323AC76B1E244EB30031A2AD /* Features */,
 				323AC6CC1E244EAA0031A2AD /* Cucumberish */,
 				323AC6B01E244E540031A2AD /* IosContinuousIntegrationCucumberTests.swift */,
 				323AC6C61E244E550031A2AD /* Info.plist */,
+				323AC76B1E244EB30031A2AD /* Features */,
 				323AC6B21E244E550031A2AD /* Screens */,
 				323AC6B71E244E550031A2AD /* Step Definitions */,
 				323AC6BA1E244E550031A2AD /* Common */,
@@ -1217,6 +1217,7 @@
 				323AC6CB1E244E550031A2AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5CDD0C61BCE267B00E6F2BD /* Build configuration list for PBXProject "IosContinuousIntegration" */ = {
 			isa = XCConfigurationList;
