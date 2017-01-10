@@ -50,6 +50,5 @@ class HomeScreenSteps: BaseScreen {
             XCTAssertEqual(tablesQuery.cells.count, 0)
         }
         
-        
     }
 }
