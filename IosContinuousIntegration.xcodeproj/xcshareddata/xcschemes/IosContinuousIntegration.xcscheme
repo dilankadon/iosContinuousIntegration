@@ -52,7 +52,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3208BDB01E231627007852A2"
+               BlueprintIdentifier = "323AC6AD1E244E540031A2AD"
                BuildableName = "IosContinuousIntegrationCucumberTests.xctest"
                BlueprintName = "IosContinuousIntegrationCucumberTests"
                ReferencedContainer = "container:IosContinuousIntegration.xcodeproj">
