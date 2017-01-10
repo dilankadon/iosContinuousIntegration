@@ -4,4 +4,4 @@ xcode_workspace: IosContinuousIntegration.xcworkspace
 xcode_scheme: IosContinuousIntegration
 xcode_sdk: 'iPhone 7'
 script: 
-- xcodebuild clean build test -workspace IosContinuousIntegration.xcworkspace -scheme IosContinuousIntegration -destination 'platform=iOS Simulator,name=iphone 7' | xcpretty
+- fastlane ios test
