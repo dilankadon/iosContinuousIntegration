@@ -3,7 +3,7 @@ PODS:
   - XCFit (2.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.0)
+  - Alamofire (4.2.0)
   - XCFit
 
 SPEC CHECKSUMS:
