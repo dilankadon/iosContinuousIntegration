@@ -1125,6 +1125,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8E3155F37EDF8243B00D5AF /* Pods-IosContinuousIntegration.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 8D596865QB;
@@ -1140,6 +1141,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 708D116CF6BB083987AFC172 /* Pods-IosContinuousIntegration.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 8D596865QB;
