@@ -6,7 +6,6 @@ xcode_sdk: 'iPhone 6s'
 before_install:
   - gem install bundler -v 1.13.7 --no-rdoc --no-ri --no-document --quiet
   - gem update fastlane
-  - gem cleanup
 before_script: 
   - pod install
 script: 
