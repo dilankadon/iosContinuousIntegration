@@ -5,7 +5,6 @@ xcode_scheme: IosContinuousIntegration
 xcode_sdk: 'iPhone 6s'
 before_script: 
   - gem update fastlane
-  - pod repo update
   - pod install
 script: 
   - fastlane ios test
