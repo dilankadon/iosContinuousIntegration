@@ -4,9 +4,6 @@ xcode_workspace: IosContinuousIntegration.xcworkspace
 xcode_scheme: IosContinuousIntegration
 xcode_sdk: 'iPhone 6s'
 before_install:
-  - gem install bundler -v 1.13.7 --no-rdoc --no-ri --no-document --quiet
-  - gem update fastlane
-  - pod repo update
   - pod install
 script: 
   - fastlane ios test
